@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tupy.Extensions", "Tupy.Extensions\Tupy.Extensions.csproj", "{05AFF965-3198-4447-AB62-DD244648F42B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E87EEEB1-7DB6-4B49-AAB2-89CB73F1B415}"
+	ProjectSection(SolutionItems) = preProject
+		Tupy.Extensions\Tupy.Extensions.nuspec = Tupy.Extensions\Tupy.Extensions.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
