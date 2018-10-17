@@ -12,6 +12,12 @@ namespace Tupy.Extensions
 
         }
 
+        public static string ToStringFull(this DateTime self)
+        {
+            var result = self.ToString("yyyy-MM-ddTHH:mm:ss.fff");
+            return result;
+        }
+
         public static string ToStringFull(this DateTime self, string separator)
         {
             var s = separator ?? "";
