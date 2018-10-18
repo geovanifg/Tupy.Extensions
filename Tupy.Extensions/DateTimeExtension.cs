@@ -6,7 +6,7 @@ namespace Tupy.Extensions
     {
         public static long ToLong(this DateTime self)
         {
-            var text = self.ToString("yyyyMMddhhmmssfff");
+            var text = self.ToString("yyyyMMddHHmmssfff");
             long.TryParse(text, out long result);
             return result;
 
@@ -21,7 +21,7 @@ namespace Tupy.Extensions
         public static string ToStringFull(this DateTime self, string separator)
         {
             var s = separator ?? "";
-            var result = self.ToString($"yyyy{s}MM{s}dd{s}hh{s}mm{s}ss{s}fff");
+            var result = self.ToString($"yyyy{s}MM{s}dd{s}HH{s}mm{s}ss{s}fff");
             return result;
         }
 
